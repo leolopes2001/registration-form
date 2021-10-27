@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&display=swap" rel="stylesheet">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Cadastro</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" required id="nome">
+
+
+        <label for="email">Email</label>
+        <input type="email" name="email" required id="email">
+
+        <label for="idade">Idade</label>
+        <input type="number" name="idade" required id="idade" min="12" step="1">
+
+
+        <label for="data-nascimento">Data de Nascimento</label>
+        <input type="date" name="data-nascimento" id="data-nascimento" required>
+
+
+        <label for="">Onde você possui conta</label>
+        <input type="checkbox" name="instagram" class="specialentries  margin" id="special">
+        Instagram
+        <input type="checkbox" name="facebook" class="specialentries">
+        Facebook
+        <input type="checkbox" name="youtube" class="specialentries">
+        YouTube
+
+
+        <label for="sexo">Sexo</label>
+        <input type="radio" name="sexo" class="specialentries margin">
+        Maculino
+        <input type="radio" name="sexo" class="specialentries">
+        Feminino
+
+
+        <div>
+            <label for="cor-dos-olhos" class="labelx">Cor dos Olhos</label>
+            <input type="color" name="cor-dos-olhos" class="specialentries">
+        </div>
+
+
+        <label for="biografia">Biografia</label>
+        <textarea name="" id="" cols="25" rows="5" class="margin"></textarea>
+
+
+        <label>Foto de Perfil</label>
+        <input type="file" name="arquivo" accept="image/*" id="fileedge">
+
+
+
+        <label>Telefone</label>
+        <input type="tel" name="telefone">
+
+
+
+        <label>Link Perfil do Facebook</label>
+        <input type="url" name="url">
+
+
+
+        <label>Senha</label>
+        <input type="password" name="senha" required minlength="6" maxlength="8" class="margin">
+
+
+        <button type="reset" class="specialbutton button">Limpar</button>
+        <button type="submit" class="specialentries button">Enviar Dados</button>
+
+    </form>
+</body>
+
+</html>

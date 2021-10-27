@@ -1,0 +1,64 @@
+*{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+h1{
+    color: blue;
+    position: absolute;
+    background-color:#B6E6F3 ;
+    font-size: 23px;
+    top: -2px;
+    left: 30px;
+    padding: 0px 2px;
+   
+   
+
+}
+body{
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin: 15px;
+    background-color: #B6E6F3;
+}
+label{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+input, button, textarea{
+    margin-left: 20px;
+    border-color: #F56291;
+    
+}
+.specialentries{
+    display: inline-block;
+    margin-left: 0px;
+}
+.margin{
+    margin-left: 20px;
+}
+.labelx, .specialbutton{
+    margin-left: 20px;
+    display: inline-block;
+}
+.button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 125px;
+    height: 30px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+    border-color: blue;
+    color: blue;
+    width: 140px;
+    height: 40px;
+}
+label{
+    color: blue;
+}
+#fileedge{
+    border: 2px solid red;
+}
